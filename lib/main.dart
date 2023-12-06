@@ -80,10 +80,11 @@ class _HomePageState extends State<HomePage> {
               selectedItemColor: Colors.green,
               items: const [
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.search), label: "sexo"),
+                    icon: Icon(Icons.search), label: "Explorar"),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.favorite), label: "antisexo"),
-                BottomNavigationBarItem(icon: Icon(Icons.person), label: "vsf")
+                    icon: Icon(Icons.favorite), label: "Favoritors"),
+                BottomNavigationBarItem(
+                    icon: Icon(Icons.person), label: "Perfil")
               ]),
         ));
   }
